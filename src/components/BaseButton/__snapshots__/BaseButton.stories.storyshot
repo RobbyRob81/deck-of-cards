@@ -1,0 +1,23 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Storyshots BaseButton Default 1`] = `
+<div>
+  <button
+    class="button -fill-gradient"
+    type="submit"
+  >
+    Submit
+  </button>
+</div>
+`;
+
+exports[`Storyshots BaseButton Default Button 1`] = `
+<div>
+  <button
+    class="button -fill-gradient"
+    type="submit"
+  >
+    Submit
+  </button>
+</div>
+`;
