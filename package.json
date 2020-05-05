@@ -10,7 +10,7 @@
     "test:report": "open coverage/lcov-report/index.html",
     "lint": "vue-cli-service lint",
     "storybook": "start-storybook -p 6006 -s public",
-    "build-storybook": "build-storybook",
+    "storybook:build": "build-storybook",
     "puppeteer-storyshots": "jest puppeteer-storyshots.runner.js --config ./jest.config.js"
   },
   "dependencies": {

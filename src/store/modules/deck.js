@@ -66,16 +66,3 @@ export const actions = {
     );
   }
 };
-
-// dont need these since we're using route handlers
-export const getters = {
-  getDeckById: state => id => {
-    return { state, id };
-  },
-  isLoading: state => {
-    return state.isLoading;
-  },
-  deckId: state => {
-    return state.deck_id;
-  }
-};
